@@ -1,0 +1,69 @@
+.block.block__highlight
+  | Начал заниматься программированием как хобби. В 2014 году я увлекся Ruby, Ruby on Rails и веб разработкой. С тех пор работаю с этим стеком на постоянной основе. Сейчас мне интересно функциональное программирование и хорошая архитектура приложений.
+
+.block
+  h2.block__title Навыки
+  p Я начал использовать Ruby on Rails в 2014.
+  p Последние несколько лет я работаю на <span>#{link_to 'Appbooster', 'https://appbooster.ru/', target: :blank, class: 'fa fa-external-link'}</span> и обеспечиваю рост и стабильную работу как внутренних, так и публичных проектов.
+  p В мои обязанности входят: обеспечение стабильной работы веб приложений под растущей нагрузкой, разработка и внедрение новой функциональности, работа с инфраструктурой, взаимодействие с командой, рефакторинг, обучение.
+  p В качестве следующего этапа мне интересна работа Ruby разработчика (на Rails и не только) с вовлечением в инфраструктуру (Ansible, Docker и др).
+
+.chart
+  .chart--donut
+    canvas id='myChart' width='272' height='272'
+  ul.chart--branches id='myBranches'
+    li.chart--branch.chart--branch__ruby
+      strong Ruby (4 года)
+    li.chart--branch.chart--branch__rails
+      strong Rails (4 года)
+    li.chart--branch.chart--branch__js
+      strong JavaScript (4 года)
+    li.chart--branch.chart--branch__html
+      strong HTML/CSS (4 года)
+
+.block
+  p У меня есть несколько небольших вкладов в
+    #{link_to "open source", "https://github.com/pulls?q=is%3Apr+author%3Amoofkit+archived%3Afalse+is%3Apublic+is%3Aopen", target: :blank, class: 'fa fa-external-link'}
+  p В рабочих проектах я стараюсь использовать здравый смысл и гибкие подходы. Не гонюсь за хайпом, но смотрю по сторонам. У меня есть понимание для чего нужно тестирование и как встроить этот процесс в разработку на постоянной основе. Есть опыт разработки приложений от идеи до деплоя в продакшен.
+
+.block
+  h2.block__title Soft skills
+  p Как ведущий рарзработчик я принимаю участие в бизнес решениях. Вместе с менеджерами мы стараемся достичь целей нашей компании.
+  p Мне нравится делиться знаниями на внутренних митапах и воркшопах. Всегда стараюсь помочь другим разработчикам.
+
+.block
+  h2.block__title Опыт работы
+  .work
+    .work__title
+      b
+        = link_to nil, 'https://appbooster.ru/', target: :blank, class: 'fa fa-fw fa-external-link'
+        | Appbooster (разработчик)
+      p
+        i Сентябрь 2015 &mdash; сейчас
+    p Компания Appbooster занимается мобильной рекламой. Обычно я исполняю роль бэкенд разработчика. Но так же я поддерживаю инфраструктуру и иногда выполняю небольшие фронтенд задачи.
+    p В основном я работаю с двумя проектами на Rails расположенных на AWS. Один из проектов довольно нагруженное REST API для мобильных клиентов. Вместе с командой мне постоянно приходится решать проблемы производительности.
+    p Другой проект - Rails приложение с серверным рендерингом и небольшими частями на Vue.js. Сейчас этот проект в процессе плавного перехода на React SPA приложение и Rails API в качестве бэкенда.
+    p В этих проектах ведется очень тесная работа с Appstore и Google Play (сбор данных, анализ трафика, аналитика).
+  .work
+    .work__title
+      b
+        = link_to nil, 'https://tarifer.ru/', target: :blank, class: 'fa fa-fw fa-external-link'
+        | Тарифер (бэкенд разработчик)
+      p
+        i Октябрь 2014 &mdash; Август 2015
+    p Свою карьеру как разработчика я начал с небольших скрапперов написанных на Ruby. Так же я работал с ORM системой для внутреннего использования в компании. Тарифер занимается оптимизацией расходов на мобильную связь для частных и юридических лиц.
+
+.block
+  h2.block__title Инструменты и технологии
+  .work
+    .work__title
+      b Активно использую
+    p Ruby, Rails, Trailblazer, dry-rb, PostgreSQL, Ansible, JavaScript/jQuery, Vue.js, HTML5, Slim/HAML, CSS/SASS, Nginx, Puma, Unicorn, Sidekiq, Rubocop, TDD, BDD, RSpec, Capybara, Git, GitHub, NewRelic, Datadog, CircleCI
+  .work
+    .work__title
+      b Иногда использую
+    p Docker, Hanami
+  .work
+    .work__title
+      b Использовал, но забыл
+    p Unity3d, C#

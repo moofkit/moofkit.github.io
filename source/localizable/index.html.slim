@@ -1,0 +1,68 @@
+.block.block__highlight
+  | Started programming as a hobby. In 2014 I was impressed with Ruby, Ruby on Rails and web development. Since this time working with this stack as a backend developer. Now I'm interesting with functional programming and good application design.
+
+.block
+  h2.block__title Skills
+  p I was starting working with Ruby on Rails in 2014.
+  p Last several years I'm working with <span>#{link_to 'Appbooster', 'https://appbooster.ru/', target: :blank, class: 'fa fa-external-link'}</span> and provide growing and stability works of internal and external projects.
+  p My daily responsibilities is providing stable work of web applications under growing load, design and implementing features, infrustructure automation, cooperation with teammates, refactoring, mentoring.
+  p For my next challenge, I'm interested in a full-time job as a Ruby (on and off Rails) Engineer in project team with involvement in ops (Ansible, Docker etc).
+
+.chart
+  .chart--donut
+    canvas id='myChart' width='272' height='272'
+  ul.chart--branches id='myBranches'
+    li.chart--branch.chart--branch__ruby
+      strong Ruby (#{distance_of_time_in_words Date.parse("01.09.2014"), Date.today})
+    li.chart--branch.chart--branch__rails
+      strong Rails (#{distance_of_time_in_words Date.parse("01.09.2014"), Date.today})
+    li.chart--branch.chart--branch__js
+      strong JavaScript (#{distance_of_time_in_words Date.parse("01.09.2014"), Date.today})
+    li.chart--branch.chart--branch__html
+      strong HTML/CSS (#{distance_of_time_in_words Date.parse("01.09.2014"), Date.today})
+
+.block
+  p I'm contributing a little bit to some ruby gems and open source
+    #{link_to "projects", "https://github.com/pulls?q=is%3Apr+author%3Amoofkit+archived%3Afalse+is%3Apublic+is%3Aopen", target: :blank, class: 'fa fa-external-link'}
+  p In my projects I trying to use common sense and agile approaches. Have experience in preparing and deploying web applications from idea to production.
+
+.block
+  h2.block__title Soft skills
+  p As a leed developer I involved in bussiness. And together with managers we are trying to reach our company goals.
+  p I'm realy enjoying to share my knowledge with other developers on internal metups and workshops. Always trying to help.
+
+.block
+  h2.block__title Work history
+  .work
+    .work__title
+      b
+        = link_to nil, 'https://appbooster.ru/', target: :blank, class: 'fa fa-fw fa-external-link'
+        | Appbooster (developer)
+      p
+        i Semptember, 2015 &mdash; now
+    p Appbooster is a mobile marketing company. I had participated as a back-end, front-end and even as a devops engineer in the development.
+    p Mainly I am working with two Rails back-end self-hosted applications hosted on AWS EC2. One of the project have a high concurrency with mobile REST API and I with my team constantly solving performance problems. Tight working with Appstore and GooglePlay markets (scrappers, data mining, simple analytics).
+    p Other project is Rails application with serverside rendering and some Vue.js elements. Now this project is in transition to React SPA application with Rails application as API only.
+  .work
+    .work__title
+      b
+        = link_to nil, 'https://tarifer.ru/', target: :blank, class: 'fa fa-fw fa-external-link'
+        | Tarifer (Backend developer)
+      p
+        i October, 2014 &mdash; August, 2015
+    p I've starting my career as developer with small scrappers written in Ruby. Working on ORM system for usage inside company. Tarifer offers lowering cost of mobile communication for businesses and individuals.
+
+.block
+  h2.block__title Instruments and technologies
+  .work
+    .work__title
+      b Used actively
+    p Ruby, Rails, Trailblazer, dry-rb, PostgreSQL, Ansible, JavaScript/jQuery, Vue.js, HTML5, Slim/HAML, CSS/SASS, Nginx, Puma, Unicorn, Sidekiq, Rubocop, TDD, BDD, RSpec, Capybara, Git, GitHub, NewRelic, Datadog, CircleCI
+  .work
+    .work__title
+      b Used when needed
+    p Docker, Hanami
+  .work
+    .work__title
+      b Used, but mostly forgotten
+    p Unity3d, C#

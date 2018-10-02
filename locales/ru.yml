@@ -1,0 +1,17 @@
+---
+ru:
+  # Used in distance_of_time_in_words(), distance_of_time_in_words_to_now(), time_ago_in_words().
+  datetime:
+    distance_in_words:
+      about_x_years:
+        one:   "1 год"
+        other: "%{count} лет"
+      over_x_years:
+        one:   "> 1 года"
+        other: "> %{count} лет"
+      almost_x_years:
+        one:   "1 год"
+        other: "%{count} лет"
+  full_name: "Ивлиев Дмитрий"
+  location: "Россия, Самара"
+  position_title: "Ruby разработчик"

@@ -22,15 +22,15 @@ html
     meta property="twitter:creator" content="@#{config[:twitter_handle]}"
 
 
-    title #{config[:full_name]} &#9733; #{config[:position_title]}
+    title #{t(:full_name)} &#9733; #{t(:position_title)}
 
     = stylesheet_link_tag 'style'
-    = javascript_include_tag  'script'
+    = javascript_include_tag 'script'
   body class=(page_classes)
     .card
       .card__photo
-      h1.card__name #{config[:full_name]}
-      p.card__profession #{config[:position_title]}
+      h1.card__name #{t(:full_name)}
+      p.card__profession #{t(:position_title)}
 
       ul.card__facts.card__facts--contact
         li.card__fact
@@ -38,7 +38,7 @@ html
           | #{distance_of_time_in_words Date.parse("10.09.1989"), Date.today}
         li.card__fact
           i.fa.fa-fw.fa-map-marker
-          | Samara, Russia
+          | #{t(:location)}
         li.card__fact
           i.fa.fa-fw.fa-envelope
           | #{mail_to config[:email], config[:email]}
