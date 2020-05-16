@@ -16,3 +16,6 @@
 
 .ruby-gemset
 .ruby-version
+
+# Makefile cache
+.make.*

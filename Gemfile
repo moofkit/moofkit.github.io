@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 ruby '2.3.1'
 
+gem 'bundler', '~>1.1'
 gem 'middleman', '~>3.4.1'
 gem 'slim'
 gem 'jquery-middleman'
