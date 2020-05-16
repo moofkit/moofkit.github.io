@@ -49,13 +49,12 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
+
 set :og_description, "For my next challenge, I'm interested in a full-time job as a Ruby (on and off Rails) Engineer with involvement in ops."
 set :github_handle, "moofkit"
 set :twitter_handle, "moofkit"
 set :linkedin_handle, "dmitriy-ivliev-58a35178"
 set :email, "ivlievda@gmail.com"
-
-activate :i18n
 
 configure :development do
   set :host, "http://localhost:4567"

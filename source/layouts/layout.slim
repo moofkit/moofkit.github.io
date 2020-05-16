@@ -25,7 +25,9 @@ html
     title #{t(:full_name)} &#9733; #{t(:position_title)}
 
     = stylesheet_link_tag 'style'
-    = javascript_include_tag 'script'
+    = javascript_include_tag 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'
+    = javascript_include_tag 'chart'
+    = javascript_include_tag 'application'
   body class=(page_classes)
     .card
       .card__photo
@@ -45,7 +47,7 @@ html
 
       ul.card__facts.card__facts--social
         li.card__fact= link_to nil, "http://github.com/#{config[:github_handle]}", title: 'github repositories', target: :blank, class: 'fa fa-github'
-        li.card__fact= link_to nil, "http://linkedin.com/in/#{linkedin_handle}", title: 'Linkedin profile', target: :blank, class: 'fa fa-linkedin'
+        li.card__fact= link_to nil, "http://linkedin.com/in/#{config[:linkedin_handle]}", title: 'Linkedin profile', target: :blank, class: 'fa fa-linkedin'
         li.card__fact= link_to nil, "http://twitter.com/#{config[:twitter_handle]}", title: 'Twitter account', target: :blank, class: 'fa fa-twitter'
 
     = yield

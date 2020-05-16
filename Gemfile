@@ -1,10 +1,10 @@
 source 'http://rubygems.org'
-ruby '2.3.1'
+ruby '2.6.3'
 
-gem 'bundler', '~>1.1'
-gem 'middleman', '~>3.4.1'
+gem 'middleman', '~> 4.3.4'
 gem 'slim'
 gem 'jquery-middleman'
+gem 'middleman-compass'
 
 gem 'rack-contrib'
 gem 'foreman'
