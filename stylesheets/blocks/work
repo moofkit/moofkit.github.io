@@ -1,0 +1,11 @@
+/* line 5, source/stylesheets/blocks/work.sass */ .work { margin-bottom: 17px; }
+
+/* line 8, source/stylesheets/blocks/work.sass */ .work__title { margin-bottom: 7px; color: #8b3b35; }
+
+/* line 11, source/stylesheets/blocks/work.sass */ .work__title b { display: inline-block; background: #efefec; }
+
+/* line 14, source/stylesheets/blocks/work.sass */ .work__title b a { display: inline-block; margin-right: 7px; text-decoration: none; font-size: 16px; color: #8b3b35; }
+
+/* line 20, source/stylesheets/blocks/work.sass */ .work__title b a:hover { color: #ad1023; }
+
+/* line 22, source/stylesheets/blocks/work.sass */ .work__title i { background: #efefec; font-size: 16px; }
