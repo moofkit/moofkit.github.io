@@ -4,8 +4,9 @@ start: bundle
 build: bundle
 	bundle exec rake build
 
-deploy: build
-	bundle exec rake publish
+deploy:
+	rm -rf build
+	ALLOW_DIRTY=true BRANCH_NAME=master bundle exec rake publish
 
 bundle: .make.bundle
 
