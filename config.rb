@@ -64,7 +64,7 @@ configure :build do
   set :host, "https://moofkit.github.io/"
 end
 
-activate :i18n, langs: [:en]
+activate :i18n, langs: [:en, :ru]
 
 # Build-specific configuration
 configure :build do
