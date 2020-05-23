@@ -16,9 +16,9 @@
 
 /* line 39, source/stylesheets/blocks/chart.sass */ .chart--branch__rails strong { top: 0px; left: 96px; width: 100px; }
 
-/* line 43, source/stylesheets/blocks/chart.sass */ .chart--branch__js { top: 220px; left: 310px; background: url("/images/chart/branch/js-7b976fab.png") no-repeat 0 0; }
+/* line 43, source/stylesheets/blocks/chart.sass */ .chart--branch__sql { top: 220px; left: 310px; background: url("/images/chart/branch/sql-7b976fab.png") no-repeat 0 0; }
 
-/* line 47, source/stylesheets/blocks/chart.sass */ .chart--branch__js strong { top: 32px; left: 97px; width: 120px; }
+/* line 47, source/stylesheets/blocks/chart.sass */ .chart--branch__sql strong { top: 32px; left: 97px; width: 120px; }
 
 /* line 51, source/stylesheets/blocks/chart.sass */ .chart--branch__html { width: 170px; top: 220px; left: 10px; background: url("/images/chart/branch/html-d1e7a08f.png") no-repeat 100% 0; }
 
