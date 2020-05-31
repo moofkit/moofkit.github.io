@@ -60,14 +60,32 @@ configure :development do
   set :host, "http://localhost:4567"
 end
 
-configure :build do
-  set :host, "https://moofkit.github.io/"
+activate :i18n, langs: [:en, :ru]
+
+activate :autoprefixer do |prefix|
+  prefix.browsers = "last 2 versions"
 end
 
-activate :i18n, langs: [:en, :ru]
+# With no layout
+page '/*.xml', layout: false
+page '/*.json', layout: false
+page '/*.txt', layout: false
+page '/feed.xml', layout: false
+
+page 'blog/*', layout: 'blog_layout'
+
+activate :blog do |blog|
+  blog.prefix = "blog"
+  blog.layout = "blog_layout"
+  blog.tag_template = "blog/tag.html"
+  blog.calendar_template = "blog/calendar.html"
+  blog.sources = "{year}-{month}-{day}-{title}.html"
+end
 
 # Build-specific configuration
 configure :build do
+  set :host, "https://moofkit.github.io/"
+
   # For example, change the Compass output style for deployment
   activate :minify_css
 
