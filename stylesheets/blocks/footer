@@ -1,1 +1,0 @@
-/* line 5, source/stylesheets/blocks/footer.sass */ .footer { height: 70px; float: left; width: 100%; }

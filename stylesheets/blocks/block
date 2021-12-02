@@ -1,7 +1,0 @@
-/* line 4, source/stylesheets/blocks/block.sass */ .block { margin: 0 82px 34px 82px; line-height: 30px; }
-
-/* line 7, source/stylesheets/blocks/block.sass */ .block p { margin-bottom: 17px; }
-
-/* line 10, source/stylesheets/blocks/block.sass */ .block__title { margin-bottom: 10px; font-size: 24px; font-weight: bold; color: #ad1023; }
-
-/* line 16, source/stylesheets/blocks/block.sass */ .block__highlight { margin: 0 0 34px 0; font-size: 22px; line-height: 35px; text-align: justify; }
